@@ -1,6 +1,7 @@
 /**
 * Template Name: Multi - v2.1.0
-* Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
+* Template URL: https://b
+otstrapmade.com/multi-responsive-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -108,11 +109,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #header.header-scrolled {
-  padding: 12px 0;
+  padding: 10px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -387,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   background-color: rgba(4, 12, 21, 0.8);
   overflow: hidden;
   position: relative;
@@ -938,11 +939,12 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  text-align: center;
   background: #fefefe;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  padding: 80px 20px;
+  box-shadow: 0px 10px 100px 0px rgba(110, 123, 131, 0.1);
+  padding: 40px 20px;
   transition: all ease-in-out 0.3s;
+  height:400px;
+  margin-bottom: 14px;
 }
 
 .services .icon-box .icon {
@@ -1116,6 +1118,14 @@ section {
 .cta {
   padding: 80px 0;
   background: #0b2341;
+}
+
+.cta .owl-item{
+  width : 350px !important;
+}
+
+.owl-stage{
+  
 }
 
 .cta h3 {
